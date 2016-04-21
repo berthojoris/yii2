@@ -52,7 +52,7 @@ class NumberValidator extends Validator
 	 * @var string the regular expression for matching numbers. It defaults to a pattern
 	 * that matches floating numbers with optional exponential part (e.g. -1.23e-10).
 	 */
-	public $numberPattern = '/^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/';
+	public $numberPattern = '/^\s*?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/';
 
 
 	/**
